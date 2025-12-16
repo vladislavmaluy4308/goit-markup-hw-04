@@ -296,11 +296,13 @@ div {
 .team-socials-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   list-style: none;
   margin: 0 auto;
 }
-
+.team-socials-icons {
+  fill: #f4f4fd;
+}
 .socials-link :hover,
 .socials-link :focus {
   background-color: #404bbf;
